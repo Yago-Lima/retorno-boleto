@@ -1,6 +1,5 @@
 package com.manoelcampos.retornoboleto;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.net.URI;
@@ -17,7 +16,7 @@ import java.util.List;
  * @author Manoel Campos da Silva Filho
  */
  // tag::class-start[]
-public class LeituraRetornoBancoBrasil implements LeituraRetorno {
+public class LeituraRetornobancoBrasil implements LeituraRetorno {
     @Override
     public List<Boleto> lerArquivo(final URI caminhoArquivo) {
         try {

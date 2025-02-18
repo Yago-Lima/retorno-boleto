@@ -16,7 +16,7 @@ import java.util.List;
  *
  * @author Manoel Campos da Silva Filho
  */
-public class LeituraRetornoBradesco implements LeituraRetorno {
+public class LeituraRetornobancoBradesco implements LeituraRetorno {
     @Override
     public List<Boleto> lerArquivo(final URI caminhoArquivo) {
         try {
